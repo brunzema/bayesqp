@@ -130,7 +130,7 @@ class RBFGPModel(ExactGP, GPyTorchModel):
         # setup kernel        
         self.covar_module = build_rbf_kernel(
             config=self.cfg.kernel.type,
-            ard_num_dims=self.D,
+            dims=self.D,
             lengthscale_hyperprior=self.cfg.kernel.lengthscale_hyperprior,
             outputscale_constraint=self.cfg.kernel.outputscale_constraint,
             outputscale_hyperprior=self.cfg.kernel.outputscale_hyperprior,
