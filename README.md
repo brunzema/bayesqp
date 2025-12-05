@@ -1,10 +1,10 @@
 # BayeSQP: Bayesian Optimization though Sequential Quadratic Programming
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![PyPI](https://img.shields.io/pypi/v/botorch.svg)](https://pypi.org/project/botorch)
+[![PyPI](https://img.shields.io/pypi/v/bayesqp.svg)](https://pypi.org/project/bayesqp)
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/)
 
-![Overview of the framework of BayeSQP.](assets/BayeSQP.png)
+![Overview of the framework of BayeSQP.](https://raw.githubusercontent.com/brunzema/bayesqp/main/assets/BayeSQP.png)
 
 The repository contains a _plug-and-play_ implementation of BayeSQP (NeurIPS 2025). BayeSQP as a framework aims to combine ideas from both Bayesian optimization (BO) and ideas from sequential quadratic optimization to effectively solve potentially constrained black-box optimization problems.
 
